@@ -20,7 +20,7 @@ export default function Pacchetti() {
             <li>SEO base e velocità elevata</li>
             <li>Modulo contatti integrato</li>
           </ul>
-          <a href="#misure" className="btn ghost small">
+          <a href="#misure" className="card-button">
             Richiedi info
           </a>
         </div>
@@ -41,7 +41,7 @@ export default function Pacchetti() {
             <li>Sistema prenotazioni & chat</li>
             <li>Pannello di gestione integrato</li>
           </ul>
-          <a href="#misure" className="btn small">
+          <a href="#misure" className="card-button">
             Parliamone ↗
           </a>
         </div>
@@ -62,7 +62,7 @@ export default function Pacchetti() {
             <li>Automazione flussi di lavoro</li>
             <li>Codice 100% di tua proprietà</li>
           </ul>
-          <a href="#misure" className="btn ghost small">
+          <a href="#misure" className="card-button">
             Analizziamo le esigenze
           </a>
         </div>

@@ -26,7 +26,7 @@ export default function Caso() {
           </div>
 
           <a
-            className="btn"
+            className="btn-lucente"
             href={CASE_URL}
             target="_blank"
             rel="noopener noreferrer"

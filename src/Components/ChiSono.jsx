@@ -43,9 +43,9 @@ export default function ChiSono() {
 
         {/* 3 Pilastri di Dedizione (Lato Destro) */}
         <div className="chi-pilastri">
-          <div className="pilastro-card vetro">
+          <div className="pilastro-card">
             <div className="pilastro-icon">
-              <i className="bi bi-zoom-in"></i>
+              <i className="bi bi-search"></i>
             </div>
             <div>
               <h4>Cura maniacale dei dettagli</h4>
@@ -56,9 +56,9 @@ export default function ChiSono() {
             </div>
           </div>
 
-          <div className="pilastro-card vetro">
+          <div className="pilastro-card">
             <div className="pilastro-icon">
-              <i className="bi bi-chat-heart"></i>
+              <i className="bi bi-chat-heart-fill"></i>
             </div>
             <div>
               <h4>Ascolto ed empatia</h4>
@@ -69,9 +69,9 @@ export default function ChiSono() {
             </div>
           </div>
 
-          <div className="pilastro-card vetro">
+          <div className="pilastro-card">
             <div className="pilastro-icon">
-              <i className="bi bi-person-arms-up"></i>
+              <i className="bi bi-people-fill"></i>
             </div>
             <div>
               <h4>Fianco a fianco, sempre</h4>

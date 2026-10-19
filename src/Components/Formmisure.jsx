@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { EMAIL, FORM_ENDPOINT } from "../Components/Config";
+import { PrivacyModal } from "../Components/PrivacyModal";
 
 const vuoto = {
   nome: "",
@@ -17,6 +18,9 @@ const vuoto = {
 export default function FormMisure() {
   const [f, setF] = useState(vuoto);
   const [stato, setStato] = useState("idle");
+  // Spostato correttamente qui dentro!
+  const [modalPrivacyAperto, setModalPrivacyAperto] = useState(false);
+
   const set = (k) => (e) =>
     setF({
       ...f,
@@ -167,11 +171,37 @@ export default function FormMisure() {
           onChange={set("consenso")}
         />
         <span>
-          Ho letto l’<a href="/privacy">informativa privacy</a> e acconsento al
-          trattamento dei dati per essere ricontattato.
+          Ho letto l’{" "}
+          <button
+            type="button"
+            onClick={() => setModalPrivacyAperto(true)}
+            style={{
+              background: "none",
+              border: "none",
+              padding: 0,
+              font: "inherit",
+              color: "var(--lampone)",
+              textDecoration: "underline",
+              cursor: "pointer",
+            }}
+          >
+            informativa privacy
+          </button>{" "}
+          e acconsento al trattamento dei dati per essere ricontattato.
         </span>
       </label>
-      <button className="btn" type="submit" disabled={stato === "sending"}>
+
+      {/* Componente Modale */}
+      <PrivacyModal
+        isOpen={modalPrivacyAperto}
+        onClose={() => setModalPrivacyAperto(false)}
+      />
+
+      <button
+        className="btn-lucente"
+        type="submit"
+        disabled={stato === "sending"}
+      >
         {stato === "sending" ? "Invio in corso…" : "Parliamone"}
       </button>
       {stato === "error" && (

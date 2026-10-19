@@ -39,19 +39,21 @@ export default function Hero() {
             Disponibile per nuovi progetti
           </span>
           <h1>
-            Siti e software <mark>su misura</mark>, fatti da chi li progetta.
+            Il tuo software <mark>su misura</mark>, potenziato dall'Intelligenza
+            Artificiale.
           </h1>
           <p className="lead">
-            Sono Emanuela, sviluppatrice full stack. Costruisco siti e
-            gestionali per aziende: prezzo fisso, un solo interlocutore e codice
-            che resta tuo.
+            Dalle automazioni avanzate ai gestionali personalizzati: creiamo
+            strumenti digitali che eliminano il lavoro manuale e fanno crescere
+            il tuo business.
           </p>
           <div className="azioni">
-            <a className="btn" href="#misure">
-              Parliamone
+            <a className="btn-hero-primary" href="#misure">
+              <i className="bi bi-chat-heart-fill"></i> Parliamone
             </a>
-            <a className="btn ghost" href="#caso">
-              Guarda un progetto reale
+            <a className="btn-hero-secondary" href="#caso">
+              <i className="bi bi-arrow-right-circle-fill"></i> Guarda un
+              progetto reale
             </a>
           </div>
           <ul className="punti">

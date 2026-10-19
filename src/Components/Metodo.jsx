@@ -1,28 +1,28 @@
 const passaggi = [
   {
     num: "01",
-    titolo: "Capisco",
+    titolo: "Empatia",
     desc: "Una call per capire come lavori, dove perdi tempo e chi userà il sistema.",
     iconClass: "bi bi-search",
     badge: "Discovery",
   },
   {
     num: "02",
-    titolo: "Disegno",
+    titolo: "Progettiamo",
     desc: "Ti consegno una proposta chiara con funzioni, tempi e prezzo fisso.",
     iconClass: "bi bi-pencil-ruler",
     badge: "Progettazione",
   },
   {
     num: "03",
-    titolo: "Costruisco",
+    titolo: "Costruiamo",
     desc: "Vedi il lavoro online mentre cresce passo passo, non solo alla fine.",
     iconClass: "bi bi-code-slash",
     badge: "Sviluppo Live",
   },
   {
     num: "04",
-    titolo: "Pubblico",
+    titolo: "Pubblichiamo",
     desc: "Messa online, formazione pratica e, se vuoi, manutenzione continua.",
     iconClass: "bi bi-rocket-takeoff-fill",
     badge: "Lancio & Supporto",
