@@ -1,17 +1,17 @@
 import "./App.css";
-import Metro from "./components/Metro";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Problema from "./components/Problema";
-import Vantaggi from "./components/Vantaggi";
-import Metodo from "./components/Metodo";
-import Caso from "./components/Caso";
-import Garanzie from "./components/Garanzie";
-import Pacchetti from "./components/Pacchetti";
-import ChiSono from "./components/ChiSono";
-import Faq from "./components/Faq";
-import Contatto from "./components/Contatto";
-import Footer from "./components/Footer";
+import Metro from "./Components/Metro";
+import Navbar from "./Components/Navbar";
+import Hero from "./Components/Hero";
+import Problema from "./Components/Problema";
+import Vantaggi from "./Components/Vantaggi";
+import Metodo from "./Components/Metodo";
+import Caso from "./Components/Caso";
+import Garanzie from "./Components/Garanzie";
+import Pacchetti from "./Components/Pacchetti";
+import ChiSono from "./Components/ChiSono";
+import Faq from "./Components/Faq";
+import Contatto from "./Components/Contatto";
+import Footer from "./Components/Footer";
 
 export default function App() {
   return (
