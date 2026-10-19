@@ -1,5 +1,17 @@
 @import 'bootstrap-icons/font/bootstrap-icons.css';
 
+
+/* --- CORREZIONE OVERFLOW ORIZZONTALE MOBILE --- */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* o box flessibile rispetti i confini dello schermo */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 :root {
   --fondo: #fff4ee;
   --inchiostro: #3a1140;
